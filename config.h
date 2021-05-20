@@ -5,12 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=25:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:pixelsize=20:antialias=true:autohint=true";
 /* static char *font = "Japanese:pixelsize=16:antialias=true:autohint=true"; */
 static int borderpx = 40;
 
 /* bg opacity */
-float alpha = 0.9;
+/* float alpha = 0.2; */
+float alpha = 1.0;
 
 /*
  * What program is execed by st depends of these precedence rules:
