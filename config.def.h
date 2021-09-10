@@ -7,7 +7,7 @@
  */
 static char *font = "Hack Nerd Font:pixelsize=20:antialias=true:autohint=true";
 /* static char *font = "Japanese:pixelsize=16:antialias=true:autohint=true"; */
-static int borderpx = 40;
+static int borderpx = 25;
 
 /* bg opacity */
 /* float alpha = 0.2; */
