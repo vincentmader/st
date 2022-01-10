@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:pixelsize=31:antialias=true:autohint=true";
 /* static char *font = "Japanese:pixelsize=16:antialias=true:autohint=true"; */
 static int borderpx = 25;
 
@@ -101,27 +101,48 @@ unsigned int tabspaces = 4;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#222222",
-	"red3",
-	"green3",
-	"yellow3",
-	"#0088FF",
-	"magenta3",
-	"cyan3",
-	"#FFFFFF", /* "gray90", */
+	"#111111",   /* black   */
+	"#dc322f",   /* red     */
+	"#859900",   /* green   */
+	"#b58900",   /* yellow  */
+	"#268bd2",   /* blue    */
+	"#d33682",   /* magenta */
+	"#2aa198",   /* cyan    */
+	"#fffefe",   /* white   */
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#111111",   /* black   */
+	"#dc322f",   /* red     */
+	"#859900",   /* green   */
+	"#b58900",   /* yellow  */
+	"#268bd2",   /* blue    */
+	"#d33682",   /* magenta */
+	"#2aa198",   /* cyan    */
+	"#fffefe",   /* white   */
+
+        /* OLD */
+
+	/* 8 normal colors */
+	/* "#111111", */ 
+	/* "red3",         /1* red *1/ */
+	/* "green3", */
+	/* "yellow3", */
+	/* "#0088FF", */
+	/* "magenta3", */
+	/* "cyan3", */
+	/* "#FFFFFF", /1* "gray90", *1/ */
+
+	/* 8 bright colors */
+	/* "gray50", */
+	/* "red", */
+	/* "green", */
+	/* "yellow", */
+	/* "#5c5cff", */
+	/* "magenta", */
+	/* "cyan", */
+	/* "white", */
 
 	[255] = 0,
-
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
