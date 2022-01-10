@@ -5,9 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=31:antialias=true:autohint=true";
-/* static char *font = "Japanese:pixelsize=16:antialias=true:autohint=true"; */
-static int borderpx = 25;
+static char *font = "Hack Nerd Font:pixelsize=32:antialias=true:autohint=true";
+static int borderpx = 0;
 
 /* bg opacity */
 /* float alpha = 0.2; */
@@ -23,6 +22,7 @@ float alpha = 1.0;
  */
 static char *shell = "/usr/bin/zsh";
 char *utmp = NULL;
+
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
