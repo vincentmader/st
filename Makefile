@@ -7,6 +7,10 @@ include config.mk
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
 
+run:
+	rm -f config.h
+	sudo make clean install
+
 all: options st
 
 options:
